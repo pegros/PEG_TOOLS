@@ -22,7 +22,7 @@ dataflow and xmd Tableau CRM metadata files (to ensure e.g. that all augments wi
 an Account fetch the same set of fields and all picklist values have the same colors
 in all datasets displaying a given field)
 
-TOBE COMPLE
+TO BE CONTINUED
 
 ## Technical Details
 
