@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#! /usr/bin/python3
 from datetime import date, timedelta
 
 weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -10,4 +10,4 @@ print("Date,Count,Week,Day")
 for i in range(delta.days + 1):
     day = sdate + timedelta(days=i)
     # print(day & ",1")
-    print str(day) + ",1," + str(day.isocalendar()[1]) + "," + weekDays[(day.weekday())]
+    print(str(day) + ",1," + "{:02d}".format(day.isocalendar()[1]) + "," + weekDays[(day.weekday())])

@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#! /usr/bin/python3
 import os, sys
 
 if (('-help' in sys.argv) or ('--help' in sys.argv) or ('-h' in sys.argv) or (len(sys.argv) != 3)):
