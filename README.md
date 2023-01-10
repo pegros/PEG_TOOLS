@@ -12,7 +12,7 @@ SFDX command line tool to interact with Salesforce Orgs.
 
 This package proposes the following **python** command line tools in the `/python` folder:
 * **convertGeoJson.py** enables to initialise a CRM Analytics compatible GeoJson file out of 
-a standard GoeJson one (slight generalisation of the tool available on [Trailhead](https://trailhead.salesforce.com/content/learn/projects/wave_charts_custom_map/wave_charts_custom_map_geojson)) 
+a standard GeoJson one (slight generalisation of the tool available on [Trailhead](https://trailhead.salesforce.com/content/learn/projects/wave_charts_custom_map/wave_charts_custom_map_geojson)) 
 * **generateDatesDataset.py** enables to generate a simple CRM Analytics dataset with all
 dates between 1970 and 2070 to be used in date selectors in Dashboards.
 * **getGlobalValueSets.py** enables to extract all values of all Global Value Sets from
