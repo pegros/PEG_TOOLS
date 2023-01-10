@@ -11,14 +11,16 @@ SFDX command line tool to interact with Salesforce Orgs.
 ## List of Tools
 
 This package proposes the following **python** command line tools in the `/python` folder:
-* **generateDatesDataset.py** enables to generate a simple Tableau CRM dataset with all
+* **convertGeoJson.py** enables to initialise a CRM Analytics compatible GeoJson file out of 
+a standard GoeJson one (slight generalisation of the tool available on [Trailhead](https://trailhead.salesforce.com/content/learn/projects/wave_charts_custom_map/wave_charts_custom_map_geojson)) 
+* **generateDatesDataset.py** enables to generate a simple CRM Analytics dataset with all
 dates between 1970 and 2070 to be used in date selectors in Dashboards.
 * **getGlobalValueSets.py** enables to extract all values of all Global Value Sets from
 an Org via SFDX and list them into a single CSV file.
 * **loadApexDebugLogs.py** enables to extract all debug log files available on an Org
 for a user connected via SFDX
 * **mergeDataflows.py** and **mergeXmd.py** enable to merge reference data within 
-dataflow and xmd Tableau CRM metadata files (to ensure e.g. that all augments with
+dataflow and xmd CRM Analytics metadata files (to ensure e.g. that all augments with
 an Account fetch the same set of fields and all picklist values have the same colors
 in all datasets displaying a given field)
 
