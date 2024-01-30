@@ -24,7 +24,12 @@ else:
     json_contents = json.loads(f.read())
     features = json_contents["features"]
     for iter in features:
-        iter["id"] = iter["properties"][sys.argv[1]]
+        if (isinstance(iter["properties"][sys.argv[1]],str)):
+            iter["id"] = iter["properties"][sys.argv[1]]
+        elif (isinstance(iter["properties"][sys.argv[1]],list)):
+            iter["id"] = iter["properties"][sys.argv[1]][0]
+        else:
+            iter["id"] = iter["properties"][sys.argv[1]]
     json_contents["features"] = features
     print('* #features reworked ', len(features))
 
