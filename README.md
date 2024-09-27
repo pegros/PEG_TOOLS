@@ -23,6 +23,9 @@ for a user connected via SFDX
 dataflow and xmd CRM Analytics metadata files (to ensure e.g. that all augments with
 an Account fetch the same set of fields and all picklist values have the same colors
 in all datasets displaying a given field)
+* **getFile.py** enable to download a file from a Salesforce Org given its _ContentDocument_
+Id and save it under a custom file name. It requires **[SF CLI](https://developer.salesforce.com/tools/salesforcecli)** and the **[requests](https://pypi.org/project/requests/)** module
+to run.
 
 TO BE CONTINUED
 
